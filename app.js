@@ -1,13 +1,16 @@
-// Importar Express.js const express = require ( 'express' );
+// Importar Express.js 
+const express = require ( 'express' );
 
 
-// Crea una aplicación Express const app = express ();
+// Crea una aplicación 
+Express const app = express ();
 
 
 // Middleware para analizar cuerpos JSON 
 app.use ( express.json ( ) ) ;
 
-// Establecer puerto y verify_token const port = process . env . PORT || 3000 ; const verifyToken = process . env . VERIFY_TOKEN ;
+// Establecer puerto y verify_token 
+const port = process . env . PORT || 3000 ; const verifyToken = process . env . VERIFY_TOKEN ;
  
 
 
